@@ -1,0 +1,8 @@
+{
+  "python": "3.10.14 | packaged by conda-forge | (main, Mar 20 2024, 12:45:18) [GCC 12.3.0]",
+  "platform": "Linux-5.15.0-141-generic-x86_64-with-glibc2.35",
+  "cpu_cores": 72,
+  "memory_GB": 629,
+  "gpu": "Tesla V100-PCIE-16GB",
+  "cuda": "12.1"
+}

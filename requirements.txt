@@ -1,0 +1,37 @@
+# Data
+pandas==2.2.3
+numpy==1.26.4
+openpyxl==3.1.5
+
+# ML & model
+scikit-learn==1.5.2
+xgboost==3.1.1
+lightgbm==4.6.0
+catboost==1.2.8
+optuna==4.3.0
+shap==0.49.1
+
+# Deeplearning & GNN
+torch==2.3.1
+torch-geometric==2.6.1
+dgl==2.5.0
+dgllife==0.3.2
+fair-esm==2.0.0
+deepchem==2.8.0
+
+# cheminformatics
+rdkit==2025.9.1
+chembl-webresource-client==0.10.9
+PubChemPy==1.0.5
+
+# draw
+matplotlib==3.10.3
+seaborn==0.13.2
+plotly==6.3.1
+
+# tool
+tqdm==4.67.1
+PyYAML==6.0.2
+scipy==1.15.2
+statsmodels==0.14.6
+biopython==1.85

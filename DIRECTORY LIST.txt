@@ -1,0 +1,70 @@
+Nova/
+    environment.yml
+    requirements.txt
+    DIRECTORY LIST.txt
+    env_summary.json
+    README.md
+    import.py
+    scripts/
+        03_bindingdb_clean.py
+        09_graph_feature_extract.py
+        14_shap_model.py
+        11_external_test.py
+        12_ensemble_model.py
+        10_graph_modeltrain.py
+        02_chembl_clean.py
+        13_predict.py
+        01_fda_approvedrug_clean.py
+        07_ml_feature_extract.py
+        run_all.py
+        08_ml_modeltrain.py
+        06_data_split.py
+        00_env_check.py
+        04_pubchem_clean.py
+        05_merged_clean.py
+        __pycache__/
+            10_graph_modeltrain.cpython-310.pyc
+            07_ml_feature_extract.cpython-310.pyc
+    results/
+        fingerprint_split/
+            models/
+     
+        summary/
+            ml/
+       
+            graph/
+    
+                fingerprint/
+
+                random/
+
+                scaffold/
+        
+            fda_drug/
+  
+            ensemble_result/
+
+        shap/
+  
+        random_split/
+            models/
+
+        scaffold_split/
+            models/
+
+    data/
+        00_raw/
+            drugbank_fda.sdf
+            chembl_raw.csv
+            bindingdb_raw.sdf
+            pubchem_raw.csv
+        split/
+            fingerprint_split/
+  
+            external_split/
+
+            random_split/
+
+            scaffold_split/
+
+        01_intermediate/
