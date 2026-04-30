@@ -1,8 +1,8 @@
 # Download data
-bindingdb_raw数据下载于2025.9.13
-pubchem_raw数据下载于2025.9.14
-chembl_raw数据下载于2025.9.14，为chembl_36
-drugbank_fda数据下载于2025.9.13，版本为5.1.13
+bindingdb_raw downloaded on September 13, 2025
+pubchem_raw downloaded on September 14, 2025
+chembl_raw downloaded on September 14, 2025，chembl_36
+drugbank_fda downloaded on September 13, 2025，5.1.13
 
 # DP2 Antagonist Screening: Dynamic Weighted Ensemble(ML&GNNs) 
 
@@ -61,5 +61,7 @@ Step 4: SHAP analysis  (results save in /results/shap)
 `python scripts/14_shap_model.py`Train the shap model using the LGB model.
 
 All outputs will be generated in `results/`.
+
+python run_all.py，All the code can be run directly in sequence
 
 A detailed list of contents can be viewed DIRECTORY LIST.txt
