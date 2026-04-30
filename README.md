@@ -29,8 +29,8 @@ Download the raw data from PubChem, ChEMBL, and BindingDB.
 Step 0:Installation
 Clone the repository:
     ```sh
-    git clone https://github.com/[YourUsername]/DP2-ensemble-screening.git
-    cd DP2-ensemble-screening
+    git clone git@github.com:azel-will/DP2-Antagonist-Screening.git
+    cd DP2-Antagonist-Screening
 
 Step 1:data clean
 Preprocess using the scripts in `scripts/` following `00_env_check.py-06_data_split.py`.
